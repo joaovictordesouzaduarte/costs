@@ -19,4 +19,5 @@
 }
 .item a:hover{
     color: #FFBB33;
+    transition: all 450ms ease-in-out;
 }
