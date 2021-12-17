@@ -11,7 +11,7 @@ function NewProject(){
             <p>
                 Crie seu projeto para depois 
             </p>
-            <ProjectForm/>
+            <ProjectForm btnText="Criar projeto"/>
         </div>
     )
 }
