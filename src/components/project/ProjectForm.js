@@ -48,7 +48,7 @@ import {useEffect, useState} from 'react';
     return(
         <form  onSubmit={submit}  className={styles.form}>
             <Input type="text" name="name" text="Nome do projeto" placeholder="Insira o nome do projeto" handleOnChange={handleChange}/>
-            <Input type="number" name="name" text="Orçamento do projeto" placeholder="Insira o valor do orçamento total" handleOnChange={handleChange}/>
+            <Input type="number" name="budget" text="Orçamento do projeto" placeholder="Insira o valor do orçamento total" handleOnChange={handleChange}/>
             <Select name="category_id" text="Selecione a categoria" options={categories} handleOnChange={handleCategory} value={project.category ? project.category.id : '' }/>
             <SubmitButton text={btnText}/>
         </form>

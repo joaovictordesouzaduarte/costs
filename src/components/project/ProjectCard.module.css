@@ -1,0 +1,80 @@
+.project_card{
+    padding: 1em ;
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+    width: 24%;
+    margin: 0.5%;
+}
+.project_card h4{
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.6em;
+    margin-bottom: 0.6em;
+    font-size: 1.3em;
+} 
+.project_card p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+.project_card p span{
+    font-weight: bold;
+}
+.category_text {
+    display: flex;
+    align-items: center;
+}
+.category_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;     
+}
+.category_text .infra{
+    background-color: #FFAEBC;
+}
+.category_text .desenvolvimento{
+    background-color: #42c9c4;
+}
+.category_text .design{
+    background-color: #7dda98;
+}
+.category_text .dados{
+    background-color: #c7a36a;
+}
+.project_card_actions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.project_card_actions a, 
+.project_card_actions button{
+    text-decoration: none;
+    margin-right: 1em;
+    margin-bottom: 0.4em;
+    border: none;
+    color: #222;
+    font-size: .9em;
+    padding: .6em .1em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #222;
+    transition: 0.5s;
+    padding: .9em;
+    width: 100%;
+}
+.project_card_actions svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .05em ;
+}
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+    background-color: #222;
+    color: #ffbb33 
+
+}
