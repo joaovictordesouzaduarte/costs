@@ -6,7 +6,6 @@ function Loading(){
         <img className={styles.loader} src={loading} alt="loading"></img>
         </div>
     )
-
 }
 
 export default Loading
