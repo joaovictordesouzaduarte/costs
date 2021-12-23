@@ -10,7 +10,7 @@
     background-color: #222;
     color: #FFBB33;
     /* width: 60em; */
-    padding: .3em;
+    /* padding: .3em; */
 }
 .project_details span{
     font-weight: bold;
@@ -35,7 +35,7 @@
     text-decoration: none;
     padding: 0.5em 1em;
     transition: 0.5s;
-    border-radius: 2em;
+    border-radius: 1em;
     border: none;
     margin-bottom: .4em;
     max-width: 120px;
