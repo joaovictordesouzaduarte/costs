@@ -12,12 +12,19 @@
 }
 .item{
     margin-right: 1em;
+    color: #FFFF;
 }
 .item a {
     color: #FFFF;
     text-decoration: none;
 }
-.item a:hover{
+.item a:hover,
+.item svg:hover{
     color: #FFBB33;
     transition: all 450ms ease-in-out;
+}
+
+.item svg{
+    margin-left: 0.1em;
+    color: #FFFF;
 }
