@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #222;
+    /* background-color: #222; */
     padding: 1em;
 }
 
@@ -12,10 +12,10 @@
 }
 .item{
     margin-right: 1em;
-    color: #FFFF;
+    color: #222;
 }
 .item a {
-    color: #FFFF;
+    color: #222;
     text-decoration: none;
 }
 .item a:hover,
@@ -26,5 +26,5 @@
 
 .item svg{
     margin-left: 0.1em;
-    color: #FFFF;
+    color: #222;
 }

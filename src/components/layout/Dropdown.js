@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Dropdown.module.css'
+import styles from './Dropdown.module.css'
 import {MenuItems} from './MenuItems'
 import {Link} from 'react-router-dom'
 
@@ -9,10 +9,10 @@ function Dropdown (){
 
     return(
         <>
-            <ul onClick={handleClick}>
+            <ul onClick={handleClick} className={styles.dropdown_menu}>
                 {MenuItems.map((item, index) => {
                     return(
-                        <li key={index}>
+                        <li key={index} className={styles.dropdown_link}>
                             <Link className={item.cName} to={item.path} onClick={() => setClick(false)}>{item.title}</Link>
                         </li>
                     )

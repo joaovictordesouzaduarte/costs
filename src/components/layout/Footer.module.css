@@ -1,6 +1,6 @@
 .footer{
-    background-color: #222;
-    color: #ffff;
+    /* background-color: #222; */
+    color: #222;
     padding: 3em;
     text-align: center;
 }
@@ -11,6 +11,7 @@
 }
 .social_list li{
     margin: 0 0.3em;
+    color: #222;
 }
 .social_list li:hover{
     color: #FFBB33;

@@ -9,10 +9,10 @@ import Dropdown from './Dropdown'
 import {useState} from 'react'
 
 
-function Navbar(props){
+function Navbar(){
 
     const[dropdown, setDropdown] = useState(false);
-    const onMouseEnter = () =>{
+    const onMouseEnter = () => {
         if(window.innerWidth < 960) {
             setDropdown(false)
         } else{
@@ -20,10 +20,10 @@ function Navbar(props){
         }
     }
     const onMouseLeave = () =>{
-        if(window.innerWidth < 960) {
+        if(window.innerWidth < 960)  {
             setDropdown(false)
         } else{
-            setDropdown(true)
+            setDropdown(false)
         }
     }
     // const[dropdown, setDropdown] =
@@ -43,8 +43,7 @@ function Navbar(props){
                     <li className={styles.item}>
                         <Link to='/projects'>Projects</Link> 
                     </li>
-                    <li className={styles.item} onMouseEnter={onMouseEnter}
-                    onMouseLeave={onMouseLeave}>
+                    <li className={styles.item} onMouseEnter={onMouseEnter} onMouseLeave= {onMouseLeave}>
                         A <b> Costs </b>     
                         <FaAngleDown/>                         
                         {dropdown && <Dropdown/>} 
