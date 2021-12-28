@@ -50,7 +50,7 @@ function Navbar(){
                                           
                     </li>
                     <li className={styles.item}>
-                        <Link to='/contact'>Contato</Link> 
+                        <Link to='/contact'>Fale conosco</Link> 
                     </li>
                 </ul>
             </Container>

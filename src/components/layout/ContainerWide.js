@@ -15,9 +15,9 @@ function ContainerWide(){
                     <p>
                     É uma ferramenta que permite planejar, organizar e gerenciar todo o trabalho de sua equipe, da primeira à última etapa. Um bom software de gerenciamento de projetos também serve como ferramenta de colaboração. Você pode coordenar as tarefas da equipe para que todos saibam quem está fazendo o quê. Compartilhe feedbacks, arquivos e atualizações de status. E mais, com uma visão completa sobre os trabalhos, as equipes cuidam das tarefas certas no momento certo.
                     </p>
-                    {/* <LinkPremium to={'/premium'} text={'Use Costs'}/> */}
                 </div>
             </div>
+            <LinkPremium to={'/premium'} text={'Saiba mais sobre os recursos'}/>
         </section>
 
     )

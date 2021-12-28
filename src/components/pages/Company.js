@@ -1,4 +1,4 @@
-import SubmitButton from "../form/SubmitButton"
+import LinkButton from '../layout/LinkButton'
 import styles from './Company.module.css'
 import Container from '../layout/Container'
 import ContainerWide from "../layout/ContainerWide"
@@ -12,10 +12,9 @@ function Company(){
                     <section className={styles.company_container}>       
                         <h1>Gerencie projetos</h1>                
                         <p>
-                            Com mais de 15 anos de experiência, a Cost é especializada em gestão de recursos para grandes ideias.                
+                            Com mais de 15 anos de experiência, a Costs é uma empresa especializada em gestão de projetos.                
                         </p>
-                        <SubmitButton text={"Fale com nossa equipe"}>
-                        </SubmitButton>
+                        <LinkButton to="/contact" text="Fale com nossa equipe"></LinkButton>
                     </section> 
                 </Container>
             </div>
