@@ -1,0 +1,28 @@
+.contact{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50vh; */
+}
+.contact input{
+    border:none;
+    border-radius: 6px;
+}
+
+.contact h1{
+    color: #FFBB33;
+    margin-bottom: 10px !important;
+}
+.contact button{
+    margin-left: 18vh;
+    margin-top: 5px;
+}
+.contact label{
+    font-size: 14px;
+    display: flex;
+}
+.contact h1{
+    display: flex;
+    margin: 0 auto;
+}

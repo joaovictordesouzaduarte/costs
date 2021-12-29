@@ -6,17 +6,17 @@ function Footer(){
         <footer className={styles.footer}>
         <ul className={styles.social_list}>
             <li>
-                <a href="https://www.linkedin.com/in/joão-victor-duarte/" target='_blank' rel="noreferrer" aria-label='Linkedin'>
+                {/* <a href="https://www.linkedin.com/in/joão-victor-duarte/" target='_blank' rel="noreferrer" aria-label='Linkedin'> */}
                     <FaLinkedin/>
-                </a>
+                {/* </a> */}
             </li>
             <li>
                 <FaInstagram/>
             </li>
             <li>
-                <a href="https://github.com/joaovictordesouzaduarte" target='_blank' rel="noreferrer" aria-label='Github'>
+                {/* <a href="https://github.com/joaovictordesouzaduarte" target='_blank' rel="noreferrer" aria-label='Github'> */}
                     <FaGithub/>
-                </a>
+                {/* </a> */}
             </li>
         </ul>
         <p className={styles.copy_right}>

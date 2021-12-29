@@ -26,3 +26,7 @@
 .copy_right span{
     color: #FFBB33;
 }
+
+.social_list ul li svg{
+    color: red;
+}

@@ -1,0 +1,17 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact input{
+    padding: 15px;
+    margin: 10px 0px;
+    width: 20rem; 
+    margin-left: 50px;
+}
+.contact label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30vh;
+    margin-top: 5px;
+}
