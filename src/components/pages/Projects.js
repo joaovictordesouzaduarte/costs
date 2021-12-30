@@ -37,7 +37,7 @@ function Projects(){
         message = location.state.message
     }
     function removeProject(id){
-        fetch(`http://localhost:5000/projects/${id}`, {
+        fetch(`https://my-json-server.typicode.com/joaovictordesouzaduarte/costs-project/projects/${id}`, {
             method: 'DELETE',
             headers:{
                 'Content-Type': 'application/json'
