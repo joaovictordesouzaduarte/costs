@@ -36,7 +36,7 @@ function Project(){
             setType('error')
             return false
         }
-        fetch(`http://localhost:5000/projects/${project.id}`,{
+        fetch(`https://my-json-server.typicode.com/joaovictordesouzaduarte/costs-project/projects/${project.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json'
