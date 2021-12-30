@@ -11,7 +11,7 @@ import {useEffect, useState} from 'react';
 
 
     useEffect(() => {
-        fetch ("http://localhost:5000/categories", {
+        fetch ("https://my-json-server.typicode.com/joaovictordesouzaduarte/costs-project/categories", {
             method: "GET",
             headers:{
                 'Content-Type': 'application/json',
