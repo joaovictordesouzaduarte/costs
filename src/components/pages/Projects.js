@@ -14,7 +14,7 @@ function Projects(){
     
     useEffect(() => {
         setTimeout(() => {
-            fetch("http://localhost:5000/projects", {
+            fetch("https://my-json-server.typicode.com/joaovictordesouzaduarte/costs-project/projects", {
                 method: 'GET',
                 headers:{
                     'Content-Type': 'application/json'
